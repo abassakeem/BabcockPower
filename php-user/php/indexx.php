@@ -42,7 +42,7 @@ include 'database.php';
                     <h1 class="brand-subject" >Payment made Easy</h1>
                     <h2 class="brand-name"><strong>Babcock Power</strong><img src="../abass svg for project/bulb.png" /></h2>
                   
-                    <p class="brand-subject">You have the opportunity of stress free payment of your  Electricity bill</p>
+                    <p class="brand-subject">You have the opportunity of stress free Payment of your  Electricity bill</p>
                     <a href="sign up.php" class="btn btn-lg btn-outline-dark sign-up-btn">Sign up</a>
                     <a href="signin.php" class="btn btn-lg btn-outline-dark sign-in-btn">Sign in</a>
                 </div>
