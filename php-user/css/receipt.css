@@ -1,0 +1,52 @@
+body{
+    margin-top:20px;
+    color: #484b51;
+}
+
+.page-header {
+    margin: 0 0 1rem;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+    border-bottom: 1px dotted #e2e2e2;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.page-title {
+    padding: 0;
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.sign-in-logo{
+    color:#198fff;
+    font-family: 'Orelega One', cursive;
+    font-size: 4em;
+    
+}
+
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.print:hover, .export:hover{
+    color: #198fff;
+    border: 1px solid #198fff;
+
+}
+
+
+
+
+
+
+
+
+

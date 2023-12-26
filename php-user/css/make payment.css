@@ -1,0 +1,43 @@
+.form-control {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid lightgrey;
+ 
+    transition: none;
+   background-color: transparent !important;
+}
+
+.mp-input {
+  
+}
+
+.container h1 {
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.container h4 {
+    font-family: 'Fahkwang', sans-serif;
+    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Stint Ultra Expanded', cursive;
+  
+}
+
+.radio-button-choice {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+    margin: 0 auto;
+  
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    font-weight: lighter;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.transaction-history-btn {
+    text-align: left;
+}
+body{
+    position: relative;
+}

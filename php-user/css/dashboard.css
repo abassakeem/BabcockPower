@@ -1,0 +1,88 @@
+body{
+    background-color: #f4f4f4 !important ;
+    position: relative;
+    
+}
+.container2{
+   
+    padding: 30px 0;
+    padding-bottom: 50px;
+    margin-bottom: 2em;
+    border-bottom: 1px solid lightgrey;
+}
+
+.user-name{
+    text-transform: capitalize;
+    width: 100px
+}
+
+.dashboard-section2 .row .col-sm-6 .customer-details{
+    float: left;
+}
+.container3 .col-sm-4 h4, .container3 .col-sm-4 p small{
+    font-weight: bolder;
+}
+
+
+.container4 .col-sm-4 div{
+    
+    border-top: 1px solid lightgrey;
+    font-family: 'Girassol', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.container4 .col-sm-4 div a:hover{
+    color: #ee5047;
+}
+.profile_picture{
+    height: 100px;
+}
+.container3 .col-sm-4 div{
+    font-family: 'Girassol', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    }
+
+    .price-per-watt {
+        font-size: 64px;
+        color: #000;
+        font-family: cursive;
+        padding: 50px;
+        text-align: center;
+        
+        /* animation: glow 1s ease-in-out infinite alternate;
+      }
+      
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 5px #0d6efd, 0 0 20px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #0d6efd, 0 0 30px #fff, 0 0 35px #fff;
+          font-size: 96px;
+          color: #fff;
+          
+        }
+        
+        to {
+          text-shadow: 0 0 10px #fff, 0 0 15px #0d6efd, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #ccc, 0 0 350px #fff, 0 0 40px #fff;
+          font-size: 156px;
+          color: #0d6efd; 
+      }*/
+      }
+      .glow{
+          margin-bottom: 100px;
+          box-sizing: border-box;
+          margin: 0 auto;
+          width: auto;
+          height: 200px;
+          margin-right: 0px;
+          border-radius: 30px;
+          box-shadow: 6px 6px 6px #ee5047;
+      }
+      .glow-container{
+        text-align:center;
+        
+        
+      }
+      .update-details{
+          font-size: 8px;
+      }

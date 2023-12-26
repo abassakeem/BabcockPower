@@ -1,0 +1,28 @@
+body{
+    background-color: #000;
+}
+.navigation{
+    background-color: rgb(53, 32, 32);
+}
+.link:hover{
+    border: 1px solid #ee5047;
+    
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.table{
+    overflow: auto ;
+    background: transparent;
+    
+}
+
+.table-container {
+   
+   overflow: auto;
+}
+.dataTable-selector option{
+    color: #fff;
+}
+.dataTable-input{
+    color: #fff
+}

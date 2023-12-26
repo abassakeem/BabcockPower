@@ -1,0 +1,82 @@
+.sign-in-logo {
+    color: #198fff;
+    font-family: 'Girassol', cursive;
+    font-family: 'Goblin One', cursive;
+    font-family: 'Orelega One', cursive;
+    font-size: 3em;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    font-size: 1em;
+    color: #565656;
+    background-color: #f4f4f4;
+
+    padding: 0 0 5px 0;
+    height: 25px;
+    font-size: 0.75em;
+    margin-top: 3em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+i {
+
+    position: absolute;
+    margin-left: 100px;
+    top: 25px;
+    cursor: pointer;
+
+}
+
+.help-section1 {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2em;
+}
+
+.log-out-btn {
+    margin-left: 10px;
+}
+
+.log-out-btn .log-out-button {
+    border-radius: 16px 36px;
+}
+
+.header-container {
+    background-color: #f5efef !important;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.active {
+    border-bottom: 2px solid #000000;
+}
+
+
+.sign-up-footer{
+    font-size: 1em;
+    color: #565656;
+    background-color: #f4f4f4;
+
+    padding: 0 0 5px 0;
+    height: 25px;
+    font-size: 0.75em;
+    margin-top: 3em;
+    position: relative;
+   margin-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+}

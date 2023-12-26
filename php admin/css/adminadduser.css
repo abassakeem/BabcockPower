@@ -1,0 +1,72 @@
+body{
+    background-color: #000;
+
+}
+input{
+    background: black;
+}
+input[disabled]{
+    background-color: black;
+}
+
+::placeholder{
+    color:#fff ;
+}
+.sign-up-form{
+  
+}
+.form-control, .form-select, .form-control:focus, .form-select:focus{
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background: transparent;
+    border-bottom: 1px solid #F50057;
+    border-radius: 20px;
+    margin-top: 0;
+    font-size: 1em;
+}
+.form-label{
+    color: #fff;
+}
+.sign-up-box{
+    width: auto;
+    max-width: 500px;
+    padding: 30px 50px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);   
+    margin: 0 auto;
+    font-size: 0.75em;
+}
+.form-control:disabled, .form-control[readonly]{
+    background-color: #000;
+}
+
+.container-sign-up h1{
+
+    font-size: 2em;
+
+}
+.container-sign-up h3{
+    font-size: 1.2em;
+    color: #677294
+}
+.form-check-label, .state{
+    float: left;
+   
+}
+.form-control:focus{
+    box-shadow: none;
+}
+i {
+    
+    position: absolute;
+    margin-left: 100px;
+    top: 25px;
+    cursor: pointer;
+
+}
+option{
+    background-color: #000;
+}
+.option:hover{
+    background-color: #F50057;
+}

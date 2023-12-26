@@ -1,0 +1,42 @@
+
+
+.form-control, .form-select{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #198fff;
+    border-radius: 0;
+    font-size: 1em;
+}
+.sign-up-box{
+    width: auto;
+    max-width: 500px;
+    padding: 30px 50px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);   
+    margin: 0 auto;
+    font-size: 0.75em;
+}
+
+.container-sign-up h1{
+
+    font-size: 2em;
+
+}
+.container-sign-up h3{
+    font-size: 1.2em;
+    color: #677294
+}
+.form-check-label, .state{
+    float: left;
+   
+}
+.form-control:focus{
+    box-shadow: none;
+}
+i {
+    
+    position: absolute;
+    margin-left: 100px;
+    top: 25px;
+    cursor: pointer;
+
+}

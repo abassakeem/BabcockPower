@@ -1,0 +1,51 @@
+
+.sign-in-box{
+    padding: 50px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+    width: auto;
+    max-width: 360px;
+    margin: 0 auto;
+}
+.logo2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+ .input{
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    border-radius: 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #677294 ;
+}
+.input2{
+    margin-bottom: 1em;
+    
+}
+.submit-btn{
+    width: 100%;
+    border-radius: 1.17647rem;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+
+.create-an-account{
+    width: 100%;
+    margin-top: 0em;
+    border-radius: 1.17647rem;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+
+
+ i {
+    
+    position: absolute;
+    margin-left: 100px;
+    top: 25px;
+    cursor: pointer;
+
+}

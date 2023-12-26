@@ -1,0 +1,33 @@
+
+
+.complaint-box-container{
+    margin: 0 auto;
+    
+}
+
+.complaint-form .no-border{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #677294;
+    
+}
+
+.complaint-box{
+   /* box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);*/
+    max-width:500px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.complaint-box h1{
+font-family: 'Girassol', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.text-area{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #677294;
+}
+.form-control:focus{
+    box-shadow: none;
+}

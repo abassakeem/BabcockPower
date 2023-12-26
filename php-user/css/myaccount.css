@@ -1,0 +1,38 @@
+
+.container2{
+    margin-bottom: 3em;
+    padding: 10px 0;
+    padding-bottom: 20px;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid lightgrey;
+}
+
+.dashboard-section2 .container2 h1{
+    font-size: 4em;
+    
+    font-family: 'Girassol', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.container3 .col-sm-4 h4, .container3 .col-sm-4 p small{
+    font-weight: bolder;
+}
+
+.container4 .col-sm-4 div{
+    
+    border-top: 1px solid lightgrey;
+    font-family: 'Girassol', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.container4 .col-sm-4 div a:hover{
+    color: #ee5047;
+}
+
+.container3 .col-sm-4 div{
+    font-family: 'Girassol', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    }
+ 
