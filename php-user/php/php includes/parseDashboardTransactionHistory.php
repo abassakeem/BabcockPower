@@ -16,6 +16,7 @@ if(isset($_SESSION['id']) || isset($_GET['user_identity']) ){
 
   
    $statement = $db->prepare("SELECT * FROM customer_details WHERE users_id = :users_id ORDER BY date_purchased DESC LIMIT 1");
+   
   $statement->bindParam(':users_id',$users_id);
   $statement->execute();
     

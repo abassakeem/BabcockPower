@@ -57,7 +57,7 @@ include 'php includes/parseReceipt.php';
                     <div class="col-12">
                         <div class="text-center text-150">
                             
-                            <p class="navbar-brand sign-in-logo">Babcock Power</p>
+                            <p class="navbar-brand sign-in-logo">BU-Power</p>
                         </div>
                     </div>
                 </div>

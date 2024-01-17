@@ -18,9 +18,7 @@ include 'php includes/parseSignIn.php';
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
      <!--end of  bootstrap css -->
-     <!-- start of fonts -->
-     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-     <!-- end of fonts -->
+     
      <link rel="stylesheet" href="../css/signin.css">
       <!-- start of style for header and footer-->
     <link rel="stylesheet" href="../css/footer and header.css">
@@ -36,7 +34,12 @@ include 'php includes/parseSignIn.php';
         <header>
             <nav class="navbar ">
                 <div class="container-fluid">
-                  <a href="index.html" class="navbar-brand sign-in-logo">Babcock Power</a>
+                <a href="index.html" class="">
+                  <div class="logo">
+            <ion-icon name="flash-sharp"></ion-icon>
+            <h2>BU-POWER</h2>
+        </div>
+                  </a>
                   <a href="help.html" class="d-flex help">Help</a>
                 </div>
               </nav>
@@ -46,12 +49,12 @@ include 'php includes/parseSignIn.php';
                 
                     <div class="row justify-content-center align-items-center text-center">
                         <div class="col-xm-0 col-md-6 d-none d-md-block">
-                            <img class="img-fluid" src="../abass svg for project/handshake.svg">
+                            <img class="img-fluid" src="../abass svg for project/undraw_welcome_re_h3d9.svg">
                         </div>
                         <div class="col-xm-12 col-md-6"> 
                             <div class="sign-in-box justify-content-center">
-                            <h3 class="sign-in-logo logo2 ">Babcock Power</h3>
-                            <h5>Sign in</h5>
+                            <h3 class="sign-in-logo logo2 ">BU-POWER</h3>
+                            <h5>Enter your Account </h5>
                             
                             <?php if(isset($result)) echo $result; ?>
                             <?php if(!empty($errors)) echo show_errors($errors); ?>
@@ -74,12 +77,12 @@ include 'php includes/parseSignIn.php';
                                     </label>
                                 </div>
                                 <div>
-                                <input type="submit" name="submit" value="Sign in" class="btn btn-primary  submit-btn"><br>
+                                <input type="submit" name="submit" value="Sign in" class=" signin-submit-btn submit-btn"><br>
                                 </div>
                             </form>
                             <div>
                                 <a href="forgot password.php" class="forgot-password text-right">forgot password?</a><br>
-                                <a href="sign up.php" class="btn btn-outline-primary create-an-account">Create an account</a>
+                                <a href="sign up.php" class=" create-an-account mt-3 p-2">Create an account</a>
                             </div>
                         </div>
 
@@ -92,7 +95,7 @@ include 'php includes/parseSignIn.php';
         
     </div>
     <footer class="sign-up-footer text-center">
-        <p><small>Babcock Power. Copyright © 2021</small></p>
+        <p><small>BU-Power. Copyright © 2023</small></p>
     </footer>
     <script src="../js/show-password.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>

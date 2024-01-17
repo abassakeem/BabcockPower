@@ -20,7 +20,7 @@ include 'session.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Babcock Power</title>
-    <link rel="shortcut icon" href="../abass project images/Screenshot (92).png">
+    <!-- <link rel="shortcut icon" href="../abass project images/Screenshot (92).png"> -->
      <!--start of bootstrap css -->
      <!--start of jquery -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -28,67 +28,9 @@ include 'session.php';
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
      <!--end of  bootstrap css -->
-     <!-- start of fonts -->
-     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-
-     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-
-     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-
-     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Donegal+One&family=Noto+Serif&display=swap" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
+  
 <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Libre+Caslon+Text&family=Stint+Ultra+Expanded&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-
-     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-     <!-- end of fonts -->
       <!-- start of style for external css-->
     <link rel="stylesheet" href="../css/dashboard.css">
       <link rel="stylesheet" href="../css/complaint history.css">
@@ -124,28 +66,48 @@ include 'session.php';
               </nav> -->
         </header>
         
-        <section class="dashboard-section1 bg-light header-container">
+        <section class="dashboard-section1  header-container">
             <div class="container-fluid container1">
-                <nav class="navbar navbar-expand-lg navbar-light ">
-                    <div class="container">
-                      <a class="navbar-brand text-dark nav-bar-navbar-brand text-dark" href="dashboard.html">Babcock Power</a>
+                <nav class="navbar navbar-expand-lg  ">
+                    <div class="container d-flex justify-content-between align-items-between">
+                      <div class="">
+                      <a class="" href="dashboard.html">   <div class="logo">
+            <ion-icon name="flash-sharp"></ion-icon>
+            <h2>BU-POWER</h2>
+        </div></a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="justify-content-end align-items-center text-center collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
+                      </button> 
+                     </div>
+
+                      <div class="justify-content-center align-items-center text-center collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav text-dark d-flex gap-5">
+                          <div class="">
+
+                         
                           <li class='nav-item <?php echo ($page1 == "dashboard.php" ? "active" : "");?>'>
-                            <a id="nav1" class="nav-link "  href="dashboard.php" >Dashboard</a>
+                            <a id="nav1" class="nav-link text-dark"  href="dashboard.php" >Dashboard</a>
                           </li>
+                          </div>
+                          <div class="">
+
+                         
                           <li class='nav-item <?php echo ($page1 == "myprofile.php" ? "active" : "");?>' >
-                            <a id="nav1" class="nav-link box3" href="myprofile.php">My Profile</a>
-                          </li>
+                            <a id="nav1" class="nav-link box3 text-dark" href="myprofile.php">Profile</a>
+                          </li> </div>
+                          <div class="">
+                        
+                           <li  class='nav-item <?php echo ($page1 == "makepayment.php" ? "active" : "");?>'>
+                            <a id="nav1" class="nav-link text-dark" href="make payment.php">Pay</a>
+                          </li>    
+                          </div>
+                          <div class="">
+
+                         
                           <li  class='nav-item <?php echo ($page1 == "myaccount.php" ? "active" : "");?>' >
-                            <a id="nav1" class="nav-link box2" href="myaccount.php">My Account</a>
+                            <a id="nav1" class="nav-link box2 text-dark" href="myaccount.php">Account</a>
                           </li>
-                          <li  class='nav-item <?php echo ($page1 == "makepayment.php" ? "active" : "");?>'>
-                            <a id="nav1" class="nav-link" href="make payment.php">Make Payment</a>
-                          </li>
+                           </div>
                           
                           <!-- <li  class='nav-item dropdown nav-item <?php echo ($page1 == "makecomplaint.php" ? "btn btn-sm btn-outline-primary" : "");?>'">
                             <a id="nav1" class="nav-link dropdown-toggle" href="complaint history.php" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -157,11 +119,16 @@ include 'session.php';
                               
                             </ul>
                           </li> -->
-                          <li class="nav-item log-out-btn" >
-                              <a href="log out.php" class="btn nav-link log-out-button btn-outline-secondary">Log out</a>
-                          </li>
+                          <div class="">
+
+                         
+                    
                         </ul>
-                      </div>
+                      </div> 
+                           <div class="nav-item log-out-btn" >
+                              <a href="log out.php" class="btn nav-link log-out-button ">Log out</a>
+                            </div>
+                           </div>
                     </div>
                   </nav>
             </div>

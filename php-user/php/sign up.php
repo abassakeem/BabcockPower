@@ -14,9 +14,7 @@ include 'php includes/parseSignUp.php';
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <!--end of  bootstrap css -->
-        <!-- start of fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-        <!-- end of fonts -->
+       
         <link rel="stylesheet" href="../css/sign up.css">
          <!-- start of style for header and footer-->
         <link rel="stylesheet" href="../css/footer and header.css">
@@ -27,7 +25,12 @@ include 'php includes/parseSignUp.php';
         <header>
             <nav class="navbar ">
                 <div class="container-fluid">
-                  <a href="index.html" class="navbar-brand sign-in-logo">Babcock Power</a>
+                  <a href="index.html" class="">
+                  <div class="logo">
+            <ion-icon name="flash-sharp"></ion-icon>
+            <h2>BU-POWER</h2>
+        </div>
+                  </a>
                   <a href="help.html" class="d-flex help">Help</a>
                 </div>
               </nav>
@@ -136,7 +139,7 @@ include 'php includes/parseSignUp.php';
                         <div class="col--sm-12">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">Check to agree to <a href="#" class="terms-and-condition text-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Terms and condition</a>
+                            <label class="form-check-label" for="gridCheck">Check to agree to <a href="#" class="terms-and-condition " data-bs-toggle="modal" data-bs-target="#staticBackdrop">Terms and condition</a>
 
 
                                 
@@ -170,7 +173,7 @@ include 'php includes/parseSignUp.php';
 
 
 
-                        <input type="submit" name="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" value="Sign up">
+                        <input type="submit" name="submit" class="signup-submit-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" value="Sign up">
                         <!-- Button trigger modal -->
                         <!-- Modal -->
                         <!-- <div class="modal fade" id="exampleModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -198,7 +201,7 @@ include 'php includes/parseSignUp.php';
         </section>
 </div>
 <footer class="mt-5 sign-up-footer text-center">
-    <p><small>Babcock Power. Copyright © 2021</small></p>
+    <p><small>BU-Power. Copyright © 2023</small></p>
 </footer>
 <script src="../js/show-password.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>

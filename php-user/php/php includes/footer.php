@@ -1,8 +1,8 @@
 
 
-<footer class="page-footer text-center">
+<!-- <footer class="page-footer text-center">
     <p><small>Babcock Power. Copyright © 2023</small></p>
-</footer>
+</footer> -->
 </div>
 <script src="../js/show-password.js"></script>
 <script>
