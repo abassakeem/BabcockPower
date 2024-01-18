@@ -28,7 +28,7 @@ include 'php includes/parseMyprofile.php';
                   <div class="container text-center justify-content-center align-items-center">
                   <img src="<?php if(isset($profile_picture)) echo $profile_picture; ?>" name="profile_picture" alt="profile picture" class="profile-picture text-primary img img-fluid"><br>
                 <div class="mt-5 edit-profile-btn">
-                  <a class="edit-profile-link mt-5" href="edit-profile.php?user_identity=<?php if(isset($encode_id)) echo $encode_id; ?>"><small>Edit profile</small></a>
+                  <a class="edit-profile-link mt-5" style="color: #1c62ac" href="edit-profile.php?user_identity=<?php if(isset($encode_id)) echo $encode_id; ?>"><small>Edit profile</small></a>
             </div>
             </div>
            

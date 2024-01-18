@@ -26,7 +26,7 @@ if (isset($_POST['submit'])){
     $errors = array_merge($errors , check_email($_POST));
 
 
-    $users_id = 'AEE' . rand(1000,1000000);
+    $users_id = 'BU' . rand(1000,1000000);
     $meter_id=$_POST['meterid'];
     $email_address=$_POST['email_address'];
     $phone_number=$_POST['phone_number']; 

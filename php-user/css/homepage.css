@@ -118,7 +118,7 @@ nav .login-section button:nth-child(2) a {
  *************************************/
 
 .hero-section {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     padding: 0 4.5rem;
     display: flex;
     justify-content: space-between;

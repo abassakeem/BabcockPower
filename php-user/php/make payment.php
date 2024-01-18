@@ -31,24 +31,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <?php if(!isset($_SESSION['meterid'])): ?>
             <h3 class="text-center help-section1">You are not authorized to view this page <a href="signin.php">Login</a> Not yet a member? <a href="sign up.php">Sign up"</a></h3>
             <?php else: ?>
-            <div class="top-make-payment d-flex justify-content-center g-5 gap-5">
+            <div class="top-make-payment d-flex justify-content-center align-items-center g-5 gap-5">
               <div class="price_per_unit">
 
            
-              <h1>
+              <h3>
                   <?php    
                         echo  $price_per_unit ?>    
-                </h1>
+                </h3>
                 <small>Price per watt</small>
    </div>
 
    <div class="conver-unit">
                   <!-- HTML form to take user input -->
     <form method="post" action="">
-        <label for="user_input">Enter How much you want to pay</label>
+        <!-- <label for="user_input">Enter How much you want to pay</label> -->
         <br>
-        <input type="number" name="user_input" placeholder="Enter Amount" required>
-        <button type="submit"  class="btn btn-outline-secondary">Convert</button>
+        <input type="number" name="user_input" class="form-control convert-input" placeholder="Enter Amount to convert" required>
+        <button type="submit"  class="convert-btn">Convert</button>
       
     </form></div> 
       </div> <h3> 
@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <p id="result"> </p>
               <div class="transaction-history-btn">
-                <a class="btn btn-primary mb-3 text-left" href="transaction history.php">Transaction History</a>
+                <a class="trans-history mb-3 text-left" href="transaction history.php">Transaction History</a>
               </div>
           <div class="make-payment-content d-flex justify-content-center">
             <div class="col-12 col-md-6">
@@ -82,12 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 
                 <form class="form-box" id="paymentForm">
                   <div class="radio-button-choice mt-5 mb-5">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input radio-button" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
-                      <label class="form-check-label" for="flexRadioDefault1">
-                        <strong>Prepaid</strong>
-                      </label>
-                    </div>
+                    
                     
                   
                   <div class="row g-3 justify-content-center align-items-center align-them">
@@ -100,20 +95,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                       <label for="floatingInput">Payer's First Name</label>
                     </div>
                     <div class="form-floating col-sm-12 col-md-6 mb-3">
-                      <input type="text" id="last-name" class="form-control" placeholder="Payer's last Name" value = "<?php if(isset($name)) echo $lastname; ?>">
+                      <input required type="text" id="last-name" class="form-control" placeholder="Payer's last Name" value = "<?php if(isset($name)) echo $lastname; ?>">
                       <label for="floatingInput">Payer's last Name</label>
                     </div>
                     
                     <div class="form-floating col-sm-12 col-md-6 mb-3">
-                      <input type="text" class="form-control" placeholder="Phone number" >
+                      <input required type="text" class="form-control" placeholder="Phone number" >
                       <label for="floatingInput">Phone number</label>
                     </div>
                     <div class="form-floating col-sm-12 col-md-6 mb-3">
-                      <input type="text" id="amount" class="form-control" placeholder="Amount" value="<?php while ($rs = $stmt1->fetch(PDO::FETCH_ASSOC)){ if ($rs['active_bill'] == "1"){ echo $rs['bill_price'];} else{ echo "";}} ?>" required >
+                      <input required type="text" id="amount" class="form-control" placeholder="Amount" value="<?php while ($rs = $stmt1->fetch(PDO::FETCH_ASSOC)){ if ($rs['active_bill'] == "1"){ echo $rs['bill_price'];} else{ echo "";}} ?>" required >
                       <label for="floatingInput">Amount</label>
                     </div>
                     <div class="col-sm-12 col-md-6 mb-3 form-submit">
-                      <button type="submit" id="submit" class="btn btn-lg btn-primary" onclick="payWithPaystack()">Pay</button>
+                      <button type="submit" id="submit" class="pay-btn" onclick="payWithPaystack()">Pay</button>
                     </div>
                     </div>
                   </div>
@@ -137,7 +132,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                       key: 'pk_test_32e0bc2432bb45ec099e3885b9f3fd963c93020f', // Replace with your public key
                       email: document.getElementById("email-address").value,
                       amount: document.getElementById("amount").value * 100,
-                      ref: 'AEE-'+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+                      ref: 'BU-'+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
                       // label: "Optional string that replaces customer email"
                       onClose: function(){
                         window.location = "http://localhost/works/1project/php/make payment.php";

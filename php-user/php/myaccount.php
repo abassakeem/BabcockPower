@@ -45,24 +45,24 @@ include 'php includes/parseDashboardTransactionHistory.php';
                     </div>
                  </div>
              </section>
-             <section class="dashboard-section4">
+             <section class="dashboard-section4 trans">
                  <div class="container container4 ">
                      <div class="row ">
                         <div class="col-sm-4">
                             <div>
-                                <a href="make payment.php">PAY NOW</a>
+                                <a href="make payment.php" style="color: #1c62ac">PAY NOW</a>
                             </div>
                             
                         </div>
                         <div class="col-sm-4">
                             <div>
-                                <a href="payment statement.php">VIEW ALL STATEMENTS</a>
+                                <a href="payment statement.php" style="color: #1c62ac">VIEW ALL STATEMENTS</a>
                             </div>
                             
                         </div>
                         <div class="col-sm-4">
                             <div>
-                                <a href="transaction history.php">VIEW ALL</a>
+                                <a href="transaction history.php" style="color: #1c62ac">VIEW ALL</a>
                             </div>
                             
                         </div>

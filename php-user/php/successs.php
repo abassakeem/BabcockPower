@@ -40,8 +40,8 @@ include 'session.php' ?>
     <header class="container-fluid">
         <nav class="navbar ">
             <div class="container-fluid">
-              <a href="dashboard.html" class="navbar-brand sign-in-logo">AEE</a>
-              <a href="help.html" class="d-flex help">Help</a>
+              <a href="dashboard.html" class="navbar-brand sign-in-logo" style="color: #1c62ac">BU-POWER</a>
+              <a href="help.html" class="d-flex help" style="color: #1c62ac">Help</a>
             </div>
           </nav>
     </header>
@@ -49,10 +49,14 @@ include 'session.php' ?>
             <h3 class="text-center help-section1">You are not authorized to view this page <a href="signin.php">Login</a> Not yet a member? <a href="sing up.php">Sign up"</a></h3>
             <?php else: ?>
     <section class="text-center">
-    <h3 class="text-center text-primary">You have Successfully made payment</h3>
-    <img class="error-image img img-fluid" src="../abass svg for project/icons8-checked.svg">
-    <h1 class="text-primary"> TRANSACTION SUCCESSFUL</h1>
-    <a class="btn btn-outline-danger" href="dashboard.php" > RETURN TO DASHBOARD</a>
+    <h3 class="text-center " style="color: #1c62ac">You have Successfully made payment</h3>
+    <img class="error-image img img-fluid py-5" style="height: 250px" src="../abass svg for project/icons8-checked.svg">
+    <h1 class=" mt-5" style="color: #1c62ac"> TRANSACTION SUCCESSFUL</h1>
+    <div class="mt-5">
+
+ 
+    <a class="" href="dashboard.php" style="padding: 0.5rem 1rem; border-radius: 0.5rem ; color: #a97703; border: 1px solid #a97703"  > RETURN TO DASHBOARD</a>
+     </div>
     </section>
     <?php endif ?>
     <?php
