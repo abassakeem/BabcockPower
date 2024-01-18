@@ -56,7 +56,7 @@ include 'php includes/parsePriceHistory.php';
                             </div>
                           
                             
-                        <div class="bottom-region1 mt-5 d-flex g-2 gap-2 text-align-left justify-content-between align-items-start">
+                        <div class="bottom-region1 mt-5 d-flex g-2 gap-2 text-align-left justify-content-between align-items-center">
                         <div class="">
                             <div class="box-1 box d-flex justify-content-between gap-5 align-items-center">
                             <div>
@@ -65,7 +65,7 @@ include 'php includes/parsePriceHistory.php';
                                         <a href="make payment.php" class="d-btn">PAY </a>
                                         
                                     </div>
-                                    <div class="px-3"><ion-icon name="person-outline" class="ion-icon"></ion-icon></div>
+                                    <div class=""><ion-icon name="person-outline" class="ion-icon"></ion-icon></div>
                             </div>
                             <div class="box-2 box d-flex justify-content-between align-items-center">
                             <div>

@@ -49,14 +49,14 @@ include 'php includes/parseWattPrice.php';
         
     </div>
 
-    <div class="container px-0">
+    <div class="container px-0" style="font-family: montserrat">
         <div class="row mt-4">
             <div class="col-12 col-lg-10 offset-lg-1">
                 <div class="row">
                     <div class="col-12">
                         <div class="text-center text-150">
                             
-                            <p class="navbar-brand sign-in-logo">Babcock Power</p>
+                            <p class="navbar-brand sign-in-logo" style="color: #1c62ac; font-family: montserrat">BU-POWER</p>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ include 'php includes/parseWattPrice.php';
             <div class="table-responsive mt-2">
                 <table class="table table-striped table-borderless border-0 border-b-2 brc-default-l1">
                     <thead class="bg-none bgc-default-tp1">
-                        <tr class="text-light bg-primary">
+                        <tr class="text-light "style="background: #1c62ac">
                             <th class="opacity-2">#</th>
                             <th>Description</th>
                             <th>Qty</th>
