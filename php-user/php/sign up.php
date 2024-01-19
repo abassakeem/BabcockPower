@@ -20,26 +20,26 @@ include 'php includes/parseSignUp.php';
         <link rel="stylesheet" href="../css/footer and header.css">
         <!-- end of style for header and footer-->
 </head>
+
 <body>
     <div class="container-fluid">
         <header>
             <nav class="navbar ">
                 <div class="container-fluid">
-                  <a href="index.html" class="">
-                  <div class="logo">
-            <ion-icon name="flash-sharp"></ion-icon>
-            <h2>BU-POWER</h2>
-        </div>
+                    <a href="index.html" class="">
+                    <div class="logo">
+                        <ion-icon name="flash-sharp"></ion-icon>
+                        <h2>BU-POWER</h2>
+                    </div>
                   </a>
                   <a href="help.html" class="d-flex help">Help</a>
                 </div>
-              </nav>
+            </nav>
         </header>
         <section>
             <div class="container container-sign-up text-center">
                 <div class="sign-up-box">
                 <h1>Sign up</h1>
-                <h3>Create a Babcock Power account</h3>
                 <?php if(isset($result)) echo $result; ?>
                 <?php if(isset($result1)) echo $result1; ?>
                 <?php if(!empty($errors)) echo show_errors($errors); ?>
@@ -199,11 +199,16 @@ include 'php includes/parseSignUp.php';
                 </div>
             </div>
         </section>
-</div>
-<footer class="mt-5 sign-up-footer text-center">
-    <p><small>BU-Power. Copyright © 2023</small></p>
-</footer>
-<script src="../js/show-password.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    </div>
+    
+    <footer class="mt-5 sign-up-footer text-center">
+        <p><small>BU-Power. Copyright © 2023</small></p>
+    </footer>
+
+
+    <script src="../js/show-password.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

@@ -15,26 +15,13 @@ include 'database.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Babcock Power</title>
     <!-- <link rel="shortcut icon" href="../abass project images/Screenshot (92).png"> -->
-    <!--start of bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <!--end of  bootstrap css -->
-    <!-- start of fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Orelega+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!-- end of fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200&family=Orelega+One&display=swap" rel="stylesheet">
-   <!-- start of external style sheet -->
     <link rel="stylesheet" href="../css/homepage.css">
     <!-- end of external style sheet -->
 
 </head>
 <body>
 
-    <!----------------- NAVIGAION ------------------->
+    <!----------------- NAVIGATION ------------------->
     <nav>
         <div class="logo">
             <ion-icon name="flash-sharp"></ion-icon>
@@ -114,15 +101,7 @@ include 'database.php';
     
 
     <!----------------- FOOTER ------------------->
-    <footer>
-        <div class="group-info">
-            <h4>NWABUIS NKEMAKORNAM</h4>
-            <p>20/1148</p>
 
-            <h4>NTUMOBE EBUBE</h4>
-            <p>20/1987</p>
-        </div>
-    </footer>
 
 
     
