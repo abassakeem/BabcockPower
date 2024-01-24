@@ -22,11 +22,11 @@ body{
 
 
 .price-per-watt {
-    font-size: 10rem;
+    font-size: 3.5rem;
     color: #fff;
     font-family: cursive;
     padding: 10px;
-    
+    word-spacing: -0.3em;
   
    
   }

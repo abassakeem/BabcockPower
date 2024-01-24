@@ -16,6 +16,9 @@ include 'includes/adminparseViewUser.php';
                 <div>
                 <?php toastMessage('Account successfully Deactivated'); ?>
                     <section class="container-fluid  text-light table-container">
+                    <div class="text-center">
+                        <h3>Total Users: <?php echo $totalUsers; ?></h3>
+                    </div>
                             
                                 <table id="datatablesSimple" class="table text-light">
                                     <thead>
@@ -40,7 +43,8 @@ include 'includes/adminparseViewUser.php';
                                     
                                     <tbody>
                                     <?php
-                                        while($row = $statement->fetch(PDO::FETCH_ASSOC) ){ ?>
+                                       foreach ($users as $row) :
+                                        ?>
                                         <tr>
                                         <td><a  class="btn btn-primary" href="adminEditUsers.php?users_id=<?php echo $row['users_id']?>">Edit</a></td>
                                                 
@@ -123,7 +127,7 @@ include 'includes/adminparseViewUser.php';
                                                 <td><?php echo $row['activated'];  ?></td>   
                                                 
                                             </tr>
-                                        <?php } ?>
+                                            <?php endforeach; ?>
                                     </tbody>
                                 </table>
                             

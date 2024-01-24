@@ -1,5 +1,5 @@
 <?php
-$page1 = "adminDashboard.php";
+$page1 = "price.php";
 include 'includes/adminHeader.php';
 include 'includes/adminparsePrice.php';
 ?>
@@ -29,4 +29,4 @@ include 'includes/adminparsePrice.php';
                             </div>
             </div>
                 <?php endif ?>
-        <?php include 'includes/adminFooter.php'?>
+        

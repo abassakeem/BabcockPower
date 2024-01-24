@@ -48,8 +48,11 @@ include 'includes/adminUtility.php'; ?>
                           <li class='nav-item <?php echo ($page1 == "adminDashboard.php" ? "active" : "");?>'>
                             <a class="nav-link text-light link"  href="adminDashboard.php">Dashboard</a>
                           </li>
-                          <li class='nav-item <?php echo ($page1 == "adminBillUser.php" ? "active" : "");?>' >
+                          <!-- <li class='nav-item <?php echo ($page1 == "adminBillUser.php" ? "active" : "");?>' >
                             <a class="nav-link text-light link" href="adminBillUser.php">Bill Users</a>
+                          </li> -->
+                          <li class='nav-item <?php echo ($page1 == "price.php" ? "active" : "");?>' >
+                          <a href="adminPrice.php" class="nav-link text-light link" > Price / Watt</a>
                           </li>
                           <li class='nav-item <?php echo ($page1 == "adminAddUser.php" ? "active" : "");?>'>
                             <a class="nav-link text-light link" href="adminAddUser.php">Register User</a>

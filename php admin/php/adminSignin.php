@@ -64,7 +64,7 @@
                                 </div>
                             </form>
                             <div>
-                                <a href="forgotpasswordpage.html" class="forgot-password text-right text-info">forgot password?</a><br>
+                                <br>
                                 <a href="sign up.html" class="btn btn-outline-danger create-an-account">Create an account</a>
                             </div>
                         </div>
