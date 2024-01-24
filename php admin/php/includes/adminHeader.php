@@ -33,7 +33,7 @@ include 'includes/adminUtility.php'; ?>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body class="">
        
         <section class="dashboard-section1 navigation">
             <div class="container-fluid container1">
@@ -43,18 +43,18 @@ include 'includes/adminUtility.php'; ?>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                      <div class="justify-content-end align-items-center text-center collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                          <li class='nav-item <?php echo ($page1 == "adminDashboard.php" ? "btn btn-sm btn-outline-danger" : "");?>'>
+                      <div class="justify-content-end admin-header align-items-center text-center collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                          <li class='nav-item <?php echo ($page1 == "adminDashboard.php" ? "active" : "");?>'>
                             <a class="nav-link text-light link"  href="adminDashboard.php">Dashboard</a>
                           </li>
-                          <li class='nav-item <?php echo ($page1 == "adminBillUser.php" ? "btn btn-sm btn-outline-danger" : "");?>' >
+                          <li class='nav-item <?php echo ($page1 == "adminBillUser.php" ? "active" : "");?>' >
                             <a class="nav-link text-light link" href="adminBillUser.php">Bill Users</a>
                           </li>
-                          <li class='nav-item <?php echo ($page1 == "adminAddUser.php" ? "btn btn-sm btn-outline-danger" : "");?>'>
+                          <li class='nav-item <?php echo ($page1 == "adminAddUser.php" ? "active" : "");?>'>
                             <a class="nav-link text-light link" href="adminAddUser.php">Register User</a>
                           </li>
-                          <li class='nav-item <?php echo ($page1 == "adminViewUsers.php" ? "btn btn-sm btn-outline-danger" : "");?>'>
+                          <li class='nav-item <?php echo ($page1 == "adminViewUsers.php" ? "active" : "");?>'>
                             <a class="nav-link text-light link" href="adminViewUsers.php">Users</a>
                           </li>
                           

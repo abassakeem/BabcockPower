@@ -14,7 +14,7 @@ include 'includes/adminparseEditUsers.php';
                <?php if(isset($result)) echo $result; ?>
                   <?php if(isset($session_errors))  echo $session_errors; $session_errors= array(); ?>
                 <div>
-<div class="container container-sign-up text-center">
+<div class="container container-sign-up text-center edit-user">
                 <div class="sign-up-box">
                 <h1>Edit User</h1>
                 

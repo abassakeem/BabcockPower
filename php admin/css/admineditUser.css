@@ -26,3 +26,13 @@ body{
 .dataTable-input{
     color: #fff
 }
+
+.edit-user .link:hover{
+    outline: 1px solid black;
+    
+    border-radius: 0.4rem;
+    transition: 0.5s;
+}
+.link{
+    border: none !important;
+}

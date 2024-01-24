@@ -3,6 +3,9 @@
 
 body{
     background-color: #000;
+    position: relative;
+    height: 100%;
+    
 }
 .sign-in-logo{
     color:#a97703;
@@ -17,10 +20,13 @@ footer{
     font-size: 1em;
     color:#fff;
     background-color: #a97703;
-    padding: 0 0 5px 0;
+    padding: 0px 0 5px 0;
     height: 25px;
     font-size: 0.75em;
     margin-top: 3em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .form-control:focus{
     box-shadow: none;
@@ -42,13 +48,20 @@ i {
 .navigation{
     background-color: rgb(53, 32, 32);
 }
-.link:hover{
-    border: 1px solid #a97703;
-    
-    border-radius: 30px;
-    transition: 0.5s;
-}
+
 
 *,body,p h1,h1,h3,h4,h5,h6, a, div{
     font-family: "Montserrat" !important;
+}
+.active{
+   
+    border-bottom: 1px solid #fff;
+}
+.admin-header li{
+  
+
+}
+.admin-header li:hover{
+    background: #000;
+
 }
