@@ -40,6 +40,7 @@ include 'php includes/parseSignUp.php';
             <div class="container container-sign-up text-center">
                 <div class="sign-up-box">
                 <h1>Sign up</h1>
+                <p>already have an account? <a href="signin.php"> sign in </a></p>
                 <?php if(isset($result)) echo $result; ?>
                 <?php if(isset($result1)) echo $result1; ?>
                 <?php if(!empty($errors)) echo show_errors($errors); ?>
