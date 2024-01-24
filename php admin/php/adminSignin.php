@@ -11,9 +11,7 @@
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
      <!--end of  bootstrap css -->
-     <!-- start of fonts -->
-     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-     <!-- end of fonts -->
+    
      <link rel="stylesheet" href="../css/adminSignin.css">
       <!-- start of style for header and footer-->
     <link rel="stylesheet" href="../css/adminFooterandheader.css">
@@ -24,7 +22,7 @@
         <header>
             <nav class="navbar ">
                 <div class="container-fluid">
-                  <a href="../html/homepage.html" class="navbar-brand sign-in-logo">AEE</a>
+                  <a href="../html/homepage.html" class="navbar-brand sign-in-logo">BU-POWER</a>
                   
                 </div>
               </nav>
@@ -32,13 +30,13 @@
         <section>
             <div class="container">
                 
-                    <div class="row justify-content-center align-items-center text-center">
+                    <div class="row justify-content-center align-items-center text-center  mt-5">
                         <div class="col-xm-0 col-md-6">
                             <img class="img-fluid" src="../images/undraw_Login_re_4vu2.svg">
                         </div>
                         <div class="col-xm-12 col-md-6"> 
                             <div class="sign-in-box justify-content-center">
-                            <h3 class="sign-in-logo logo2 ">AEE</h3>
+                            <h3 class="sign-in-logo logo2 ">BU-POWER</h3>
                             <h5 class="text-light">Admin Sign in</h5>
                             <div class="text-light">
                                 <?php if(isset($result)) echo $result; ?>
@@ -79,4 +77,4 @@
 
         
     </div>
-    <?php include 'includes/adminFooter.php'?>
+   

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
 
 .container2{
     margin-bottom: 3em;
@@ -10,9 +12,8 @@
 .dashboard-section2 .container2 h1{
     font-size: 4em;
     
-    font-family: 'Girassol', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat';
+   ;
 }
 .container3 .col-sm-4 h4, .container3 .col-sm-4 p small{
     font-weight: bolder;
@@ -21,19 +22,14 @@
 .container4 .col-sm-4 div{
     
     border-top: 1px solid lightgrey;
-    font-family: 'Girassol', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-
+    font-family: 'Montserrat';
 }
 .container4 .col-sm-4 div a:hover{
     color: #ee5047;
 }
 
 .container3 .col-sm-4 div{
-    font-family: 'Girassol', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat';
     }
  
 

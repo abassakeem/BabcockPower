@@ -5,7 +5,7 @@ body{
     background-color: rgb(53, 32, 32);
 }
 .link:hover{
-    border: 1px solid #ee5047;
+    border: 1px solid #a97703;
     
     border-radius: 30px;
     transition: 0.5s;
@@ -22,34 +22,34 @@ body{
 
 
 .price-per-watt {
-    font-size: 64px;
-    color: #000;
+    font-size: 10rem;
+    color: #fff;
     font-family: cursive;
-    padding: 50px;
+    padding: 10px;
     
-    text-align: right;
-    animation: glow 1s ease-in-out infinite alternate;
+  
+   
   }
   
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 5px #fff, 0 0 20px #ee5047, 0 0 15px #ee5047, 0 0 20px #ee5047, 0 0 25px #ee5047, 0 0 30px #ee5047, 0 0 35px #ee5047;
-      font-size: 130px;
-      color: #ee1111;
-      
-    }
-    
-    to {
-      text-shadow: 0 0 10px #fff, 0 0 15px #ee5047, 0 0 20px #ee5047, 0 0 25px #ee5047, 0 0 30px #ee5047, 0 0 350px #ee5047, 0 0 40px #ee5047;
-      font-size: 180px;
-      color: #ee5047
+.change-price-btn {
+    background-color: #a97703 !important;
+  
+   
   }
+  
+.change-price-btn:hover {
+    background-color: #b2810e !important;
+    outline: 1px xolid #fff;
+  
+   
   }
+  
+ 
   .glow{
-      margin-bottom: 100px;
+  
       box-sizing: border-box;
       width: auto;
-      height: 200px;
+      
       margin-right: 0px;
       
       

@@ -37,7 +37,7 @@ include 'php includes/parseWattPrice.php';
                 <?php
                 while($row = $statement->fetch(PDO::FETCH_ASSOC) ){ ?>
                   <tr>
-                    <td><a href="print.php?reference=<?php echo $row['reference'];  ?>" class="btn btn-primary">View Receipt</a></td>
+                    <td><a href="print.php?reference=<?php echo $row['reference'];  ?>" class="btn btn-primary" style="background-color: #1c62ac; color:#fff">View Receipt</a></td>
                     <th scope="row"><?php echo  "#"  ?></th>
                    
                     <!-- <td><?php echo $row['lastname'];  ?></td> -->

@@ -1,5 +1,5 @@
 <footer class="page-footer text-center">
-                    <p><small>AEE. Copyright © 2021</small></p>
+                    <p><small>BU-POWER. Copyright © 2023</small></p>
                 </footer>
             </div>
         </div>

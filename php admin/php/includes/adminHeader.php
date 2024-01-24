@@ -11,15 +11,9 @@ include 'includes/adminUtility.php'; ?>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Dashboard - AEE Admin</title>
-         <!-- start of fonts -->
-     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lato:wght@300&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-     <!-- end of fonts -->
+        <title>BU-POWER Admin</title>
+    
+    
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <!-- <link href="../css/styles.css" rel="stylesheet" /> -->
@@ -40,37 +34,12 @@ include 'includes/adminUtility.php'; ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="container-fluid  navbar navbar-expand navbar-dark ">
-            <!-- Navbar Brand-->
-            <a href="dashboard.html" class="navbar-brand sign-in-logo text-danger">AEE</a>
-            
-           
-            <!-- Navbar Search-->
-            <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
-                <div class="input-group">
-                    <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
-                    <button class="btn btn-danger" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
-                </div>
-            </form>
-           
-            <!-- Navbar-->
-            <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#!">Settings</a></li>
-                        <li><a class="dropdown-item" href="#!">Activity Log</a></li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="logout.php">Logout</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+       
         <section class="dashboard-section1 navigation">
             <div class="container-fluid container1">
-                <nav class="navbar navbar-expand-lg navbar-light">
+                <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center align-items-center">
                     <div class="container">
-                      <a class="navbar-brand text-danger nav-bar-navbar-brand" href="dashboard.html">AEE</a>
+                      <a class="navbar-brand nav-bar-navbar-brand" style="color: #a97703" href="dashboard.html">BU-POWER</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -89,10 +58,8 @@ include 'includes/adminUtility.php'; ?>
                             <a class="nav-link text-light link" href="adminViewUsers.php">Users</a>
                           </li>
                           
-                          <li class='nav-item <?php echo ($page1 == "adminViewComplaints.php" ? "btn btn-sm btn-outline-danger" : "");?>'>
-                            <a class="nav-link text-light link"  href="adminViewComplaints.php" >
-                              Complaints
-                            </a>
+                          <li class='nav-item '>
+                          <a class="nav-link text-light link" href="logout.php">Logout</a>
                             
                           </li>
                         </ul>

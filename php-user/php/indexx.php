@@ -15,16 +15,9 @@ include 'database.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Babcock Power</title>
     <!-- <link rel="shortcut icon" href="../abass project images/Screenshot (92).png"> -->
-    <!--start of bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <!--end of  bootstrap css -->
+   
     <!-- start of fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200;500&family=Orelega+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Orelega+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
     <!-- end of fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200&family=Orelega+One&display=swap" rel="stylesheet">
    <!-- start of external style sheet -->
@@ -56,7 +49,7 @@ include 'database.php';
                     your credit card or bank transfer.
                 </p>
 
-                <button>Get Started <ion-icon name="chevron-forward-sharp"></ion-icon></button>
+               <a href="sign up.php" class="get-started"> <button>Get Started <ion-icon name="chevron-forward-sharp"></ion-icon></button></a>
             </div>
             <div class="hero-img">
                 <img src="../abass project images/vecteezy_e-wallet-digital-payment-online-transaction-with-woman_9646297.jpg" alt="">

@@ -141,6 +141,9 @@ nav .login-section button:nth-child(2) a {
     width: 70%;
     line-height: 150%;
 }
+.hero-section .hero-info .get-started{
+    cursor: pointer;
+}
 
 .hero-section .hero-info button {
     color: var(--color-white);
@@ -155,6 +158,7 @@ nav .login-section button:nth-child(2) a {
     transition: all 300ms ease-in-out;
     display: flex;
     align-items: center;
+    cursor: pointer;
     gap: 0.5rem;
 }
 
@@ -180,11 +184,12 @@ nav .login-section button:nth-child(2) a {
     animation-direction: alternate; 
     animation-iteration-count: infinite;
     transition: all 300ms ease-in-out;
+     padding: .5rem;
 }
 
 .scroll-down ion-icon:hover {
     background: var(--color-grey);
-    padding: .5rem;
+   
     border-radius: .3rem;
 }
 
