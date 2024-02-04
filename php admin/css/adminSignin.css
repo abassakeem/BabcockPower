@@ -34,7 +34,7 @@ body{
     color: #fff;
 }
 
-.input:focus{
+input:focus, input:active{
     background-color: #000;
 }
 

@@ -103,6 +103,13 @@ include 'session.php';
                           <div class="">
 
                          
+                          <li  class='nav-item <?php echo ($page1 == "transaction.php" ? "active" : "");?>' >
+                            <a id="nav1" class="nav-link box2 text-dark" href="transaction history.php"">Transactions</a>
+                          </li>
+                           </div>
+                          <div class="">
+
+                         
                           <li  class='nav-item <?php echo ($page1 == "myaccount.php" ? "active" : "");?>' >
                             <a id="nav1" class="nav-link box2 text-dark" href="myaccount.php">Account</a>
                           </li>

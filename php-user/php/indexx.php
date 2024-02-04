@@ -15,15 +15,6 @@ include 'database.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Babcock Power</title>
     <!-- <link rel="shortcut icon" href="../abass project images/Screenshot (92).png"> -->
-<<<<<<< HEAD
-   
-    <!-- start of fonts -->
-    
-    <!-- end of fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Goblin+One&family=Mulish:wght@200&family=Orelega+One&display=swap" rel="stylesheet">
-   <!-- start of external style sheet -->
-=======
->>>>>>> 2b671b8c0525aba6aa3bd5b9f6a5ad6a75df2c24
     <link rel="stylesheet" href="../css/homepage.css">
     <!-- end of external style sheet -->
 

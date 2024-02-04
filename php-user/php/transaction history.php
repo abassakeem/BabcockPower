@@ -1,4 +1,4 @@
-<?php $page1 = "myaccount.php"; include 'php includes/header.php'?> 
+<?php $page1 = "transaction.php"; include 'php includes/header.php'?> 
 <?php include 'php includes/parseTransactionHistory.php';
 include 'php includes/parseWattPrice.php';
 ?> 

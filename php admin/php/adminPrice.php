@@ -13,7 +13,7 @@ include 'includes/adminparsePrice.php';
                 <?php if(!empty($errors)) echo show_errors($errors); ?>
                 </div>
             <div class="container">
-            <a href="adminPriceHistory.php" class= "btn btn-outline-danger">Check Price History </a>
+            <a href="adminPriceHistory.php" class= "btn btn-outline-danger" style="color: #a97703; border : 1px solid #a97703">Check Price History </a>
             <div class="input-new-price-box ">
             <form method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>">
                                 <div class="form-floating mb-3">
@@ -23,7 +23,7 @@ include 'includes/adminparsePrice.php';
                                 
                                
                                 <div>
-                                <input type="submit" name="submit" value="Update" class="btn btn-danger mt-5 submit-btn"><br>
+                                <input type="submit" name="submit" value="Update" style="background-color: #a97703" class="btn btn-danger mt-5 submit-btn"><br>
                                 </div>
                             </form>
                             </div>

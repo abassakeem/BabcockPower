@@ -159,7 +159,7 @@ include 'includes/adminparseAdduser.php';
 
 
 
-                        <input type="submit" name="submit" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" value="Sign up">
+                        <input type="submit" name="submit" class="btn btn-danger" style="background-color: #a97703" data-bs-toggle="modal" data-bs-target="#exampleModal" value="Sign up">
                         <!-- Button trigger modal -->
                         <!-- Modal -->
                         <!-- <div class="modal fade" id="exampleModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
