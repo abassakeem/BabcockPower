@@ -1,58 +1,85 @@
-.help-section1{
-    font-family: 'Raleway', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+
+
+.help-section1 {
+    font-family: ' Montserrat', serif;
     margin-bottom: 2em;
 }
-.help-section1 h1{
+
+.help-section1 h1 {
     font-weight: bold;
-    font-family: 'Donegal One', serif;
-    font-family: 'Noto Serif', serif;
+    font-family: ' Montserrat', serif;
 }
 
-.help-section2 .container > p{
-    color:#677294;
+.help-section2 .container>p {
+    color: #677294;
 
 }
-.help-section2 h2{
-    font-family: 'Donegal One', serif;
-    font-family: 'Noto Serif', serif;
+
+.help-section2 h2 {
+    
+    font-family: ' Montserrat', serif;
 }
 
-.help-section2 img{
+.help-section2 img {
     height: 2.5em;
 }
-.help-section2 h6{
+
+.help-section2 h6 {
     color: #677294;
 }
-.help-section2 p{
+
+.help-section2 p {
     font-size: 0.75em;
 }
 
-.socials .col-sm-3{
+.socials .col-sm-3 {
     position: relative;
     padding: 1em;
 }
-.socials .col-sm-3:nth-child(even){
+
+.socials .col-sm-3:nth-child(even) {
     background-color: #f7f7f7;
 }
-.socials .col-sm-3:nth-child(odd){
+
+.socials .col-sm-3:nth-child(odd) {
     background-color: #f1f4fa;
 }
 
-.socials .col-sm-3 a{
+.socials .col-sm-3 a {
     color: #677294;
 }
-.socials .col-sm-3:hover{
+
+.socials .col-sm-3:hover {
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
     transition: 500ms;
 }
-.container-support{
+
+.container-support {
     padding: 30px 15px;
     margin-top: 1em;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
     border-radius: 1em;
 }
-.container-support a{
+
+.container-support a {
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
     padding: .5em;
     border-radius: 1em;
+}
+
+
+* {
+    font-family: Montserrat;
+}
+
+ .logo ion-icon {
+    color: #a97703;
+}
+
+ .logo a {
+    color: #1c62ac;
+    font-weight: bold;
+    font-size: 1.5rem;
 }

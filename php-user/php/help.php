@@ -24,85 +24,102 @@ include 'session.php' ?>
       <!-- end of style for header and footer-->
 </head>
 <body>
-    <div class="container-fluid">
-        <header>
-            <nav class="navbar">
-                <div class="container">
-                  <a href="index.html" class="navbar-brand sign-in-logo">AEE</a>
-                  <a href="help.html" class="d-flex help active">Help</a>
-                </div>
-              </nav>
-        </header>
-        <section class="help-section1">
-            <div class="container">
-            <?php if(!isset($_SESSION['meterid'])): ?>
-            <h3 class="text-center">You are not authorized to view this page <a href="signin.php">Login</a> Not yet a member? <a href="sing up.php">Sign up"</a></h3>
-            <?php else: ?>
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-sm-6">
-                        <h1>Need our help?</h1>
-                        <h3>Here at AEE, we care about serving you</h3>
-                        <p>Enjoy our customer service and have your issues resolved anytime - day and night.</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <img class="img-fluid" src="../abass svg for project/undraw_shared_workspace_hwky.svg">
-                    </div>
-                </div>
+    <div class="container-fluid vh-100">
+      <header>
+        <nav class="navbar">
+          <div class="container">
+           
+            <div class="logo">
+                <ion-icon name="flash-sharp"></ion-icon>
+                <a href="indexx.php" class="navbar-brand sign-in-logo">BU-Power</a>
             </div>
-        </section>
-        <section class="help-section2 text-center">
-            <div class="container">
-                <h2>Support Channels</h2>
-                <p>Choose from our available support channels</p>
-                <div class="row socials">
-                    <div class="col-sm-3">
-                        <a href="https://wa.me/2348149792483?text=hello" target="_blank">
-                        <img src="../abass svg for project/icons8-whatsapp.svg">
-                        <h6>Whatsapp</h6>
-                        <p>Feel more connected as you relate to AEE like you would your best Buddy.</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="https://instagram.com/abassakeem_" target="_blank">
-                        <img src="../abass svg for project/icons8-instagram.svg">
-                        <h6>Instagram</h6>
-                        <p>Follow us on instagram see live updates on whatever we do</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="https://twitter.com/abassakeem_" target="_blank">
-                        <img src="../abass svg for project/icons8-twitter.svg">
-                        <h6>twitter</h6>
-                        <p>Get in touch even while you are twitting  with your friends on twitter.</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-3 ">
-                        <a href="https://facebook.com/lanre.abass2" target="_blank">
-                        <img src="../abass svg for project/icons8-facebook.svg">
-                        <h6>facebook</h6>
-                        <p>Get in touch even while you are twitting  with your friends on twitter.</p>
-                        </a>
-                    </div>
-                </div>
+            <a href="help.html" class="d-flex help active">Help</a>
+          </div>
+        </nav>
+      </header>
+      <section class="help-section1">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-sm-6">
+              <h1>Need our help?</h1>
+              <h3>Here at BU-Power, we care about serving you</h3>
+              <p>
+                Enjoy our customer service and have your issues resolved anytime
+                - day and night.
+              </p>
             </div>
-        </section>
-        <section class="help-section3 text-center">
-            <div class="container container-support">
-                <div class="row">
-                    <div class="col-sm-6 get-in-touch">
-                        <p>Get in touch with support  </p>
-                    </div>
-                    <div class="col-sm-6 call-now">
-                        <a href="tel:+2348149792483">Call now (08149792483)</a>
-                    </div>
-                </div>
+            <div class="col-sm-6">
+              <img
+                class="img-fluid"
+                src="../abass svg for project/undraw_shared_workspace_hwky.svg"
+              />
             </div>
-        </section>
-        <?php endif ?>
+          </div>
+        </div>
+      </section>
+      <section class="help-section2 text-center">
+        <div class="container">
+          <h2>Support Channels</h2>
+          <p>Choose from our available support channels</p>
+          <div class="row socials">
+            <div class="col-sm-3">
+              <a href="#" target="_blank">
+                <img src="../abass svg for project/icons8-whatsapp.svg" />
+                <h6>Whatsapp</h6>
+                <p>
+                  Feel more connected as you relate to BU-Power like you would your
+                  best Buddy.
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="#" target="_blank">
+                <img src="../abass svg for project/icons8-instagram.svg" />
+                <h6>Instagram</h6>
+                <p>Follow us on instagram see live updates on whatever we do</p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="#" target="_blank">
+                <img src="../abass svg for project/icons8-twitter.svg" />
+                <h6>twitter</h6>
+                <p>
+                  Get in touch even while you are twitting with your friends on
+                  twitter.
+                </p>
+              </a>
+            </div>
+            <div class="col-sm-3">
+              <a href="#" target="_blank">
+                <img src="../abass svg for project/icons8-facebook.svg" />
+                <h6>facebook</h6>
+                <p>
+                  Get in touch even while you are twitting with your friends on
+                  twitter.
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="help-section3 text-center mb-4">
+        <div class="container container-support">
+          <div class="row ">
+            <div class="col-sm-6 get-in-touch">
+              <p>Get in touch with support</p>
+            </div>
+            <div class="col-sm-6 call-now">
+              <a href="#">Call now (08000000000)</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-        <footer class="page-footer text-center">
-            <p><small>AEE. Copyright © 2021</small></p>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-</body>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
