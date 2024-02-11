@@ -148,22 +148,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   }
 
 
-                  function convertCelsiusToKelvin() {
-            // Get the Celsius input value
-            var celsius = parseFloat(document.getElementById("celsiusInput").value);
-
-            // Check if the input is a valid number
-            if (isNaN(celsius)) {
-                alert("Please enter a valid number for Celsius.");
-                return;
-            }
-
-            // Convert Celsius to Kelvin
-            var kelvin = celsius + 273.15;
-
-            // Display the result
-            document.getElementById("result").innerHTML = celsius  + " Celsius is equal to " + kelvin.toFixed(2) + " Kelvin.";
-        }
+            
                 </script>
     
 

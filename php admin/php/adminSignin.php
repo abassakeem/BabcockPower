@@ -22,7 +22,7 @@
         <header>
             <nav class="navbar ">
                 <div class="container-fluid">
-                  <a href="../html/homepage.html" class="navbar-brand sign-in-logo">BU-POWER</a>
+                  <a href="../php/adminSignin.php" class="navbar-brand sign-in-logo">BU-POWER</a>
                   
                 </div>
               </nav>
@@ -32,7 +32,7 @@
                 
                     <div class="row justify-content-center align-items-center text-center  mt-5">
                         <div class="col-xm-0 col-md-6">
-                            <img class="img-fluid" src="../images/undraw_Login_re_4vu2.svg">
+                            <img class="img-fluid" src="../images/adlogin.svg">
                         </div>
                         <div class="col-xm-12 col-md-6"> 
                             <div class="sign-in-box justify-content-center">

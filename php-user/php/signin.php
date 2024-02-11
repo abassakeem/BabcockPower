@@ -34,7 +34,7 @@ include 'php includes/parseSignIn.php';
         <header>
             <nav class="navbar ">
                 <div class="container-fluid">
-                <a href="index.html" class="">
+                <a href="indexx.php" class="">
                   <div class="logo">
             <ion-icon name="flash-sharp"></ion-icon>
             <h2>BU-POWER</h2>

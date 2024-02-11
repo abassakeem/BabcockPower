@@ -13,7 +13,7 @@ include 'includes/adminparseAdduser.php';
             <div class="container container-sign-up text-center">
                 <div class="sign-up-box">
                 <h1 class="text-light">Add User</h1>
-                <h3>Create an AEE account</h3>
+                <h3 class="text-light">Create a BU-POWER account</h3>
                 <?php if(isset($result)) echo $result; ?>
                 <?php if(isset($result1)) echo $result1; ?>
                 <?php if(!empty($errors)) echo show_errors($errors); ?>

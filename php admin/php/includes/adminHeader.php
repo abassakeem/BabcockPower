@@ -39,7 +39,7 @@ include 'includes/adminUtility.php'; ?>
             <div class="container-fluid container1">
                 <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center align-items-center">
                     <div class="container">
-                      <a class="navbar-brand nav-bar-navbar-brand" style="color: #a97703" href="dashboard.html">BU-POWER</a>
+                      <a class="navbar-brand nav-bar-navbar-brand" style="color: #a97703" href="adminDashboard.php">BU-POWER</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
